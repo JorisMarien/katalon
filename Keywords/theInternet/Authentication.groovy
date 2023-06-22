@@ -80,7 +80,7 @@ class Authentication {
 	def isVisible(TestObject to) {
 		WebUiCommonHelper.findWebElement(to, 1).isDisplayed();
 	}
-	
+
 	/**
 	 * checks if element is not visible
 	 * @param testobject
@@ -92,7 +92,6 @@ class Authentication {
 		} catch (WebElementNotFoundException e) {
 			true
 		}
-		
 	}
 
 	/**
